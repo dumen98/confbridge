@@ -1,0 +1,26 @@
+{
+    "Basic": {
+        "Context": "script-test",
+        "Name": "OpenVox",
+        "Menu":"volume_ctrl_menu",
+        "Admin": ["10001"],
+        "AdminPin": "",
+        "Marked": [],
+        "UserPin": "",
+        "Wait_For_Admin": false,
+        "ASTERISK_SPOOL_DIR": "/var/spool/asterisk/outgoing/"
+        }, 
+    "UserOption":{
+        "music_on_hold_when_empty": "yes",
+        "startmuted": "yes",
+        "announce_only_user": "yes",
+        "announce_user_count": "yes",
+        "dsp_drop_silence": "yes",
+        "dsp_talking_threshold": 160,
+        "dsp_silence_threshold": 2500
+        }, 
+    "BridgeOption":{
+        "max_members": 2,
+        "record_conference": "no"
+        }
+}
