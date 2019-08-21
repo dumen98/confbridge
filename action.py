@@ -79,7 +79,7 @@ def main(client,number,command):
 if __name__ == '__main__':
     #init ami client
     client = AMIClient(address='127.0.0.1',port=5038)
-    client.login(username='for-confbridage',secret='for-confbridage')
+    client.login(username='for-confbridge',secret='for-confbridge')
     #get vars
     confNum = sys.argv[1]
     command = sys.argv[2]
